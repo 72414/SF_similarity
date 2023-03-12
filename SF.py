@@ -18,13 +18,13 @@ def drawMatchesKnn_cv2(img1_gray,kp1,img2_gray,kp2,goodMatch):
     for (x1, y1), (x2, y2) in zip(post1, post2):
         cv2.line(vis, (x1, y1), (x2, y2), (0,0,255))
     cv2.imwrite("match.png",vis)
-    im=cv2.imread("match.png")# 展示
+    im=cv2.imread("match.png")
     im2=cv2.resize(im,(1500,550))
     cv2.imwrite("match.png", im2)
     match_image = ImageTk.PhotoImage(file='match.png', master=window1)
     imglabel = tk.Label(window1)
     imglabel.place(x=50, y=300)
-    imglabel.config(image=match_image )  # 定义label
+    imglabel.config(image=match_image )  
     imglabel.image = match_image
 def func_1():
     global img1_gray
@@ -44,7 +44,7 @@ def func_2():
     kp2, des2 = sift.detectAndCompute(img2_gray, None)
     FLANN_INDEX_KDTREE = 1
     indexParams = dict(algorithm=FLANN_INDEX_KDTREE, tree=5)
-    searchParams = dict(checks=50)  # 指定索引树被遍历多少次，次数50越多，计算时间越长，越精确
+    searchParams = dict(checks=50)  
     flann = cv2.FlannBasedMatcher(indexParams, searchParams)
     # BFmatcher with default parms
     bf = cv2.FlannBasedMatcher(cv2.NORM_L2)
