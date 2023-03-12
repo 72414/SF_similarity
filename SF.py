@@ -18,9 +18,9 @@ def func_2():
     print('Open file 2：', file_path2)
     img2_gray = cv2.imread(file_path2)
     img2_gray=cv2.resize(img2_gray,(900,400))
-    sift = cv2.xfeatures2d.SURF_create()
-    kp1, des1 = sift.detectAndCompute(img1_gray, None)
-    kp2, des2 = sift.detectAndCompute(img2_gray, None)
+    surf = cv2.xfeatures2d.SURF_create()
+    kp1, des1 = surf.detectAndCompute(img1_gray, None)
+    kp2, des2 = surf.detectAndCompute(img2_gray, None)
     FLANN_INDEX_KDTREE = 1
     indexParams = dict(algorithm=FLANN_INDEX_KDTREE, tree=5)
     searchParams = dict(checks=50)
