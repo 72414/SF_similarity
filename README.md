@@ -1,6 +1,6 @@
 GC × GC fingerprinting similarity calculation workstation
 =
-Based on the SURF-FLANN method, it calculate the similarity of comprehensive two-dimensional gas chromatographic fingerprinting
+Based on the SURF-FLANN feature matching method, it calculate the similarity of comprehensive two-dimensional gas chromatographic fingerprinting
   
 Requirements 
 =
