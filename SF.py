@@ -24,7 +24,7 @@ def drawMatchesKnn_cv2(img1_gray,kp1,img2_gray,kp2,goodMatch):
     match_image = ImageTk.PhotoImage(file='match.png', master=window1)
     imglabel = tk.Label(window1)
     imglabel.place(x=50, y=300)
-    imglabel.config(image=match_image )  
+    imglabel.config(image=match_image )
     imglabel.image = match_image
 def func_1():
     global img1_gray
@@ -44,10 +44,8 @@ def func_2():
     kp2, des2 = sift.detectAndCompute(img2_gray, None)
     FLANN_INDEX_KDTREE = 1
     indexParams = dict(algorithm=FLANN_INDEX_KDTREE, tree=5)
-    searchParams = dict(checks=50)  
+    searchParams = dict(checks=50)
     flann = cv2.FlannBasedMatcher(indexParams, searchParams)
-    # BFmatcher with default parms
-    bf = cv2.FlannBasedMatcher(cv2.NORM_L2)
     matches = flann.knnMatch(des1, des2, k=2)
     print(len(des1))
     print(len(des2))
@@ -94,4 +92,3 @@ b2.place(x=650, y=150)
 l4 = tk.Label(window1, text='Match_result :')
 l4.place(x=50, y=250)
 window1.mainloop()
-print(cv2.__version__)
