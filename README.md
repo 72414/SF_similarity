@@ -5,7 +5,8 @@ SURF-FLANN algorithm is a feature detection-matching algorithm. Feature detectio
 Image complexity usually keep the similarity scoring ambiguity in non-targeted GC×GC fingerprints, including those data from complex essential oil or atomosphere samples. Therefore, targeted filtration should be introduced in pre-processing procedure, i.e.: retaining target features for fingerprint evaluation and removing interfering features. In our paer, zone- specific ion filtration was introduced for quality evaluation of GC×GC fingerprints. 
 We visualize the SURF-FLANN algorithm as a tool for readers to use. The tool is shown below:
 
-![image](https://user-images.githubusercontent.com/76737318/226507374-092a8991-d050-4676-826e-a7379095e797.png)
+![图片1](https://user-images.githubusercontent.com/76737318/226507782-e580cd30-b1cd-42d5-a278-afb9f3067e9b.png)
+
 
 
  
