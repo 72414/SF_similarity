@@ -11,6 +11,7 @@ Requirements
 •	OpenCV 3.4.2
 •	Windows 11
 •	Install additional libraries, listed in the requirements.txt
+
 Usage
 ==
 •	Prepare two GC×GC fingerprints as the queryImage and referenceImage
