@@ -4,7 +4,9 @@ The calculation of image similarity of comprehensive two-dimensional gas chromat
 SURF-FLANN algorithm is a feature detection-matching algorithm. Feature detection is a concept in the field of computer vision and image processing. It means that it extracts image information through the computer and decides whether each point belongs to an image feature. By extracting, describing and matching feature points of the image, the detection and matching of the feature points in two GC×GC fingerprints are completed. The main steps include: (1) SURF feature extraction; (2) feature descriptor generation; (3) FLANN feature matching; (4) similarity computation. In other words, the similarity of GC×GC fingerprints is calculated according to the number of matching feature points.
 Image complexity usually keep the similarity scoring ambiguity in non-targeted GC×GC fingerprints, including those data from complex essential oil or atomosphere samples. Therefore, targeted filtration should be introduced in pre-processing procedure, i.e.: retaining target features for fingerprint evaluation and removing interfering features. In our paer, zone- specific ion filtration was introduced for quality evaluation of GC×GC fingerprints. 
 We visualize the SURF-FLANN algorithm as a tool for readers to use. The tool is shown below:
-![image](https://user-images.githubusercontent.com/76737318/226507285-5ecbd420-9e09-4760-8448-0848dc5fa73d.png)
+
+![image](https://user-images.githubusercontent.com/76737318/226507374-092a8991-d050-4676-826e-a7379095e797.png)
+
 
  
 Requirements
