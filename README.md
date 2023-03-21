@@ -8,13 +8,17 @@ We visualize the SURF-FLANN algorithm as a tool for readers to use. The tool is 
 Requirements
 ==
 •	Python, version 3.7 or earlier
+
 •	OpenCV 3.4.2
+
 •	Windows 11
+
 •	Install additional libraries, listed in the requirements.txt
 
 Usage
 ==
 •	Prepare two GC×GC fingerprints as the queryImage and referenceImage
   (raw data; targeted filtration; zone- specific ion filtration; etc)
+  
 •	Run SF.py, input the queryImage and referenceImage, then get the matching result and get the similarity value showed on the interface
 
