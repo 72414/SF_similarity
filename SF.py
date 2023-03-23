@@ -34,7 +34,7 @@ def func_2():
     print(len(des2))
     goodMatch = []
     for m, n in matches:
-        if m.distance < 0.99 * n.distance:
+        if m.distance < 0.98 * n.distance:
             goodMatch.append(m)
     if len(des1) < len(des2):
         MAX = len(des2)
