@@ -1,3 +1,0 @@
-Cite==
-
-M. He, X. Yang, Y. Li, X. Luo, Z. Tan, S. Luo, Development of image similarity strategy based on targeted filtration fornon-targeted HS-SPME/GC × GC fingerprints of volatile oils from Chinesepatent medicines: A case of Chaihu Shugan Wan, Microchemical Journal, 191 (2023) 108705.
