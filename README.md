@@ -5,6 +5,10 @@ Image complexity usually keep the similarity scoring ambiguity in non-targeted G
 We visualize the SURF-FLANN algorithm as a tool for readers to use. The tool is shown below:
  ![图片1](https://user-images.githubusercontent.com/76737318/227073250-cf6fcdb2-c8a2-4c08-85b8-f7fb84cabaf6.png)
 
+Cite
+==
+M. He, X. Yang, Y. Li, X. Luo, Z. Tan, S. Luo, Development of image similarity strategy based on targeted filtration fornon-targeted HS-SPME/GC × GC fingerprints of volatile oils from Chinesepatent medicines: A case of Chaihu Shugan Wan, Microchemical Journal, 191 (2023) 108705.
+
 Requirements 
 ==
 •	Python, version 3.7 or earlier
